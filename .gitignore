@@ -11,8 +11,10 @@ pycache/
 #png files
 *.png
 
-#csv files
+#csv and excel files
 *.csv
+*.xlsx
+*.xls
 
 # C extensions
 *.so
