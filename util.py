@@ -114,7 +114,7 @@ def countplot_viz(
         height = p.get_height()
         g.text(
             p.get_x() + p.get_width() / 2.0,
-            height + 3,
+            height + 1,
             "{:1}".format(height),
             ha="center",
             fontsize=fontsize_text,
