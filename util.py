@@ -74,7 +74,7 @@ def df_first_look(df):
         
         
 def countplot_viz(
-    data,
+    df,
     xcolumn,
     xlabel,
     ylabel,
@@ -104,7 +104,7 @@ def countplot_viz(
     """
     plt.figure(figsize=(figsize_x,figsize_y))
     
-    g = sns.countplot(x=xcolumn, data=data, hue=hue, palette=palette, order = data[xcolumn].value_counts().index)
+    g = sns.countplot(x=xcolumn, data=df, hue=hue, palette=palette, order = df[xcolumn].value_counts().index)
     g.set_title(title, fontsize=19)
     g.set_xlabel(xlabel, fontsize=17)
     g.set_ylabel(ylabel, fontsize=17)
@@ -122,4 +122,29 @@ def countplot_viz(
     if hue != None:
         g.legend(bbox_to_anchor=(1, 1), loc=1, borderaxespad=0)  
 
-        
+def tv_spot_identifier_time_series_chart(
+    df, resample_method, spot_list
+):
+    """
+    This function gets a Python Pandas dataframe and visualize a countplot.
+    :param df: Dataframe to be visualise
+    :param resample_method: Timeseries resampling period
+    :return: This function doesn't return anything.
+    """
+
+    # sessions_final_df_reporting_df.set_index("date_hour_minute", inplace=True)
+    ax = df.resample(resample_method).apply(sum).plot(figsize=(20, 6))
+    trans = ax.get_xaxis_transform()
+    ax.axvline(spot_list[0], color="red", linestyle="dashed")
+    ax.axvline(spot_list[1], color="red", linestyle="dashed")
+    ax.axvline(spot_list[2], color="red", linestyle="dashed")
+    ax.axvline(spot_list[3], color="red", linestyle="dashed")
+    ax.axvline(spot_list[4], color="red", linestyle="dashed")
+
+    plt.text(spot_list[0], 0.8, "First spot air", transform=trans)
+    plt.text(spot_list[1], 0.7, "Second spot air", transform=trans)
+    plt.text(spot_list[2], 0.8, "Third spot air", transform=trans)
+    plt.text(spot_list[3], 0.7, "Fourth spot air", transform=trans)
+    plt.text(spot_list[4], 0.8, "Fifth spot air", transform=trans)
+
+    plt.show()        
