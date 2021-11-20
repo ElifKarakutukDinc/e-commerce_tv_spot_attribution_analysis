@@ -147,4 +147,4 @@ def tv_spot_identifier_time_series_chart(
     plt.text(spot_list[3], 0.7, "Fourth spot air", transform=trans)
     plt.text(spot_list[4], 0.8, "Fifth spot air", transform=trans)
 
-    plt.show()        
+    plt.show()   
