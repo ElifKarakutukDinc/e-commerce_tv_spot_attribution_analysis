@@ -148,3 +148,49 @@ def tv_spot_identifier_time_series_chart(
     plt.text(spot_list[4], 0.8, "Fifth spot air", transform=trans)
 
     plt.show()   
+    
+def two_column_distribution_chart(
+    df,
+    numeric_column_1,
+    numeric_column_2,
+    column_1_label,
+    column_2_label,
+    title,
+    xlabel,
+    ylabel="Density",
+    figsize_x=15,
+    figsize_y=5,
+):
+    """
+    Gets a Python Pandas dataframe and visualize distributions of two columns.
+    :param df: Dataframe to be analyze
+    :param numeric_column_1: First column is for showing data distribution.
+    :param numeric_column_2: First column is for showing data distribution.
+    :param column_1_label: It designates label by first column.
+    :param column_2_label: It designates label by second column.
+    :param title: It designates title for graph.
+    :param xlabel: X axis label.
+    :param ylabel: Y axis label.
+    :param figsize_x: Figure x axis size.
+    :param figsize_y: Figure y axis size.
+    :return: This function doesn't return anything.
+    """
+    plt.figure(figsize=(figsize_x, figsize_y))
+    sns.distplot(
+        df[numeric_column_1],
+        kde=True,
+        hist=False,
+        kde_kws={"shade": True, "linewidth": 3},
+        label=column_1_label,
+    )
+    sns.distplot(
+        df[numeric_column_2],
+        kde=True,
+        hist=False,
+        kde_kws={"shade": True, "linewidth": 3},
+        label=column_2_label,
+    )
+    plt.title(title, fontsize=17)
+    plt.xlabel(xlabel, fontsize=15)
+    plt.ylabel(ylabel, fontsize=15)
+    plt.legend()
