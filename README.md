@@ -1,4 +1,4 @@
-![Screenshot](logo.png)
+![About You](images/logo.png)
 
 # About You/Scayle Case Study
 
