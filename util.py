@@ -104,7 +104,7 @@ def countplot_viz(
     """
     plt.figure(figsize=(figsize_x,figsize_y))
     
-    g = sns.countplot(x=xcolumn, df=df, hue=hue, palette=palette, order = df[xcolumn].value_counts().index)
+    g = sns.countplot(x=xcolumn, data=df, hue=hue, palette=palette, order = df[xcolumn].value_counts().index)
     g.set_title(title, fontsize=19)
     g.set_xlabel(xlabel, fontsize=17)
     g.set_ylabel(ylabel, fontsize=17)
