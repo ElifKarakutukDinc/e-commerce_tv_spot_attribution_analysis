@@ -8,12 +8,6 @@ pycache/
 
 .idea/dbnavigator.xml
 
-#png files
-*.png
-
-#jpg files
-*.jpg
-
 
 #csv and excel files
 *.csv
