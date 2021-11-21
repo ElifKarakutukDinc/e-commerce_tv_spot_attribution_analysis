@@ -10,6 +10,7 @@ pycache/
 
 #png files
 *.png
+*.jpg
 
 #csv and excel files
 *.csv
