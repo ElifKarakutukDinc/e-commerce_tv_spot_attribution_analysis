@@ -162,7 +162,7 @@ def two_column_distribution_chart(
     figsize_y=5,
 ):
     """
-    Get a Python Pandas dataframe and visualize distributions of two columns.
+    This function gets a Python Pandas dataframe and visualizes distributions of two columns.
     :param df: Dataframe to be analyze
     :param numeric_column_1: First column is for showing data distribution.
     :param numeric_column_2: First column is for showing data distribution.
