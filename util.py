@@ -43,7 +43,7 @@ def sessions_final_df_cleaning(sessions_final_df,channel_list):
 
 def df_first_look(df):
     """
-    This function gets a Python Pandas dataframe and visualize basic information about the dataframe.
+    This function gets a Python Pandas dataframe and visualizes basic information about the dataframe.
     :param df: Dataframe to be analyze
     """
     try:
@@ -89,22 +89,22 @@ def countplot_viz(
     palette="viridis",
 ):
     """
-    This function gets a Python Pandas dataframe and visualize a countplot.
-    :param data: Dataframe to be analyze
-    :param xcolumn: This column designates x axis column.
-    :param xlabel: It designates name of x axis column.
-    :param ylabel: It designates name of y axis column.
-    :param title: This column designates name of graph.
+    This function gets a Python Pandas dataframe and visualizes a countplot.
+    :param df: Dataframe to be analyze
+    :param xcolumn: This column designates the x axis column.
+    :param xlabel: It designates the name of the x axis column.
+    :param ylabel: It designates the name of the y axis column.
+    :param title: This column designates the name of the graph.
     :param hue: Name of variables in `data` or vector data, optional Inputs for plotting long-form data.
     :param fontsize_label: It designates label size.
     :param fontsize_title: It designates title size.
-    :param rotation: It designates rotation of graph.
-    :param palette: It designates colors of graph.
+    :param rotation: It designates rotation of graphs.
+    :param palette: It designates colors of graphs.
     :return: This function doesn't return anything.
     """
     plt.figure(figsize=(figsize_x,figsize_y))
     
-    g = sns.countplot(x=xcolumn, data=df, hue=hue, palette=palette, order = df[xcolumn].value_counts().index)
+    g = sns.countplot(x=xcolumn, df=df, hue=hue, palette=palette, order = df[xcolumn].value_counts().index)
     g.set_title(title, fontsize=19)
     g.set_xlabel(xlabel, fontsize=17)
     g.set_ylabel(ylabel, fontsize=17)
@@ -126,9 +126,9 @@ def tv_spot_identifier_time_series_chart(
     df, resample_method, spot_list
 ):
     """
-    This function gets a Python Pandas dataframe and visualize a countplot.
+    This function gets a Python Pandas dataframe and visualizes a countplot.
     :param df: Dataframe to be visualise
-    :param resample_method: Timeseries resampling period
+    :param resample_method: Time Series resampling period
     :return: This function doesn't return anything.
     """
 
@@ -162,13 +162,13 @@ def two_column_distribution_chart(
     figsize_y=5,
 ):
     """
-    Gets a Python Pandas dataframe and visualize distributions of two columns.
+    Get a Python Pandas dataframe and visualize distributions of two columns.
     :param df: Dataframe to be analyze
     :param numeric_column_1: First column is for showing data distribution.
     :param numeric_column_2: First column is for showing data distribution.
-    :param column_1_label: It designates label by first column.
-    :param column_2_label: It designates label by second column.
-    :param title: It designates title for graph.
+    :param column_1_label: It designates the label by the first column.
+    :param column_2_label: It designates the label by the second column.
+    :param title: It designates a title for a graph.
     :param xlabel: X axis label.
     :param ylabel: Y axis label.
     :param figsize_x: Figure x axis size.
