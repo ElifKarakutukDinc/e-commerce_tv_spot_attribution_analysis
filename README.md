@@ -1,5 +1,5 @@
-![title]("logo.png")
-![alt text](http://url/to/img.png)
+![Screenshot](logo.png)
+
 # About You/Scayle Case Study
 
 ABOUT YOU is one of the fastest growing e-Commerce companies in Europe and Hamburg’s first unicorn since 2018. As a fashion and technology corporation, along with a strong team, digitalize the classic shopping stroll by creating an inspiring and personalized shopping experience on the smartphone.  
