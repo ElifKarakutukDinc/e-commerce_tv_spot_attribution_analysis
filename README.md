@@ -5,7 +5,7 @@
 ABOUT YOU is one of the fastest growing e-Commerce companies in Europe and Hamburg’s first unicorn since 2018. As a fashion and technology corporation, along with a strong team, digitalize the classic shopping stroll by creating an inspiring and personalized shopping experience on the smartphone.  
 * 1,17 bn EUR revenue in fiscal year 2020/21
 * 25 markets in 7 years
-* > 1000 employees from over 72 nationalities
+* More than 1000 employees from over 72 nationalities
 
 Scayle is the commerce engine that enables brands and retailers to scale their business across technology, operations and online marketings. Scayle is “About You as an engine” in a way. 
 
@@ -31,3 +31,7 @@ Click [here](https://github.com/ElifKarakutukDinc/aboutyou-home-assignment/blob/
 
 You can find the functions that were used in notebooks by me. 
 Click [here](https://github.com/ElifKarakutukDinc/aboutyou-home-assignment/blob/main/util.py) to go to util.py
+
+## ETL Pipeline and ER Diagram
+
+Click [here](https://github.com/ElifKarakutukDinc/aboutyou-home-assignment/blob/main/ETL_Pipeline_and_ER_Diagram.ipynb) to go to ETL_Pipeline_and_ER_Diagram.ipynb
