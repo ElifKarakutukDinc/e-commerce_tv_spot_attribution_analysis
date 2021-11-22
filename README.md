@@ -7,7 +7,7 @@ ABOUT YOU is one of the fastest growing e-Commerce companies in Europe and Hambu
 * 25 markets in 7 years
 * More than 1000 employees from over 72 nationalities
 
-Scayle is the commerce engine that enables brands and retailers to scale their business across technology, operations and online marketings. Scayle is “About You as an engine” in a way. 
+SCAYLE is the commerce engine that enables brands and retailers to scale their business across technology, operations and online marketings. Scayle is “About You as an engine” in a way. 
 
  
 # At Case Study
@@ -18,7 +18,7 @@ If a touchpoint was triggered by a digital marketing channel, we usually have th
 
 One limitation of this model is that our offline marketing campaigns (e.g., TV, radio or billboard advertising) cannot easily be included (because we do not know which sessions were triggered by offline media). However, we have spotted that directly after a TV spot is aired more customers than we would expect to visit our online shop. We decided to use this signal to improve our attribution model.
 
-## (EDA) Exploratory Data Analysis 
+## Exploratory Data Analysis (EDA)
 
 In this notebook I want to take a detailed look into the data sets, each column's distributions, relationships between data sets and so on.  You can start to read my home assignment from this step. 
 Click [here](https://github.com/ElifKarakutukDinc/aboutyou-home-assignment/blob/main/EDA.ipynb) to go to EDA.ipynb
