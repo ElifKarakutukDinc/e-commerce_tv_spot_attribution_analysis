@@ -12,7 +12,7 @@ SCAYLE is the commerce engine that enables brands and retailers to scale their b
  
 # At Case Study
 
-About You currently mainly work with an internally developed rule-based attribution model.
+About You currently mainly works with an internally developed rule-based attribution model.
 
 If a touchpoint was triggered by a digital marketing channel, we usually have this information and can attribute the corresponding share of the purchase to this channel. This information in combination with the costs for the marketing campaigns help us improve our marketing spend allocation.
 
@@ -20,18 +20,14 @@ One limitation of this model is that our offline marketing campaigns (e.g., TV, 
 
 ## Exploratory Data Analysis (EDA)
 
-In this notebook I want to take a detailed look into the data sets, each column's distributions, relationships between data sets and so on.  You can start to read my home assignment from this step. 
+In this notebook I want to take a detailed look into the data sets, each column's distributions, relationships between data sets and so on. You can start to read my home assignment from this step. 
 Click [here](https://github.com/ElifKarakutukDinc/aboutyou-home-assignment/blob/main/EDA.ipynb) to go to EDA.ipynb
 
-##  Data Cleaning and TV Probability Calculation
+## Data Cleaning and TV Probability Calculation
 In this notebook I want to clean the data sets, create new columns to analyse tv spot interactions and calculate TV probabilities. This step is the second step of my home assignment.  
 Click [here](https://github.com/ElifKarakutukDinc/aboutyou-home-assignment/blob/main/TV_Probability.ipynb) to go to TV_Probability.ipynb
 
 ## Util 
 
-You can find the functions that were used in notebooks by me. 
+You can find the helper functions that were used in Jupyter Notebooks. 
 Click [here](https://github.com/ElifKarakutukDinc/aboutyou-home-assignment/blob/main/util.py) to go to util.py
-
-## ETL Pipeline and ER Diagram
-
-Click [here](https://github.com/ElifKarakutukDinc/aboutyou-home-assignment/blob/main/ETL_Pipeline_and_ER_Diagram.ipynb) to go to ETL_Pipeline_and_ER_Diagram.ipynb
