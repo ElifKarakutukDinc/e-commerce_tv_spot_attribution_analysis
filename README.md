@@ -1,22 +1,8 @@
-![About You](images/logo.png)
+# Calculating Offline Effect on Visits of Website and app at e-commerce Sector 
 
-# About You/Scayle Case Study
+For a company that is based on e-commerce, calculating effects of TV advertisement on Visits of Website and app: 
 
-ABOUT YOU is one of the fastest growing e-Commerce companies in Europe and Hamburg’s first unicorn since 2018. As a fashion and technology corporation, along with a strong team, digitalize the classic shopping stroll by creating an inspiring and personalized shopping experience on the smartphone.  
-* 1,17 bn EUR revenue in fiscal year 2020/21
-* 25 markets in 7 years
-* More than 1000 employees from over 72 nationalities
-
-SCAYLE is the commerce engine that enables brands and retailers to scale their business across technology, operations and online marketings. Scayle is “About You as an engine” in a way. 
-
- 
-# At Case Study
-
-About You currently mainly works with an internally developed rule-based attribution model.
-
-If a touchpoint was triggered by a digital marketing channel, we usually have this information and can attribute the corresponding share of the purchase to this channel. This information in combination with the costs for the marketing campaigns help us improve our marketing spend allocation.
-
-One limitation of this model is that our offline marketing campaigns (e.g., TV, radio or billboard advertising) cannot easily be included (because we do not know which sessions were triggered by offline media). However, we have spotted that directly after a TV spot is aired more customers than we would expect to visit our online shop. We decided to use this signal to improve our attribution model.
+One limitation of the model is that offline marketing campaigns (e.g., TV, radio or billboard advertising) cannot easily be included (because we do not know which sessions were triggered by offline media). However, we have spotted that directly after a TV spot is aired more customers than we would expect to visit our online shop. We decided to use this signal to improve our attribution model.
 
 ## Exploratory Data Analysis (EDA)
 
